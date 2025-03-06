@@ -1,0 +1,128 @@
+
+
+.container-inovatif{
+  font-size: 55px;
+  justify-content: center;
+  align-items: center;
+  margin-top: -500px;
+  margin-left: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  
+}
+
+
+
+.container-doggy{
+  margin-bottom: 200px;
+}
+
+
+
+
+
+.allContainer{
+  margin: 0 ;
+  padding: 0;
+  height: '100vh';
+  width: '100vw';
+}
+
+.charity{
+  margin-top: 30px;
+  font-size: 60px;
+  margin-left: 100px;
+}
+
+.donate{
+  display: flex;
+  justify-content: flex-end;
+  background-color: yellow;
+  padding-right: 40px;
+  font-size: 50px;
+}
+
+.isidonate{
+  background-color: white;
+  padding: 5px;
+  border:5px solid black
+}
+
+/* .isidonate:hover{
+  transform: scale(1.05);
+} */
+
+.Doggy{
+  width: 30%;
+  height: 30%;
+}
+
+
+.Gambar{
+  width: 70px;
+  height: auto
+}
+
+
+.WEAREtext{
+  font-family:sans-serif;
+  font-size: 30px;
+  margin-left: 100px;
+  margin-top: -30px;
+}
+
+.Animals{
+  font-family:sans-serif;
+  font-size: 30px;
+  margin-left: 150px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+
+.text{
+  font-family:sans-serif;
+  font-size: 30px;
+  margin-top: -50px;
+  color: white;
+  margin-left: 100px;
+  margin-bottom: 80px;
+}
+
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.project-card {
+  background-color: rgba(0, 0, 0, 0.1); /* Background transparan dengan sedikit warna */
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.1);
+  background-color: rgba(0, 0, 0, 0.3); /* Warna background saat hover */
+}
+
+.project-text {
+  color: white;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.project-heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
