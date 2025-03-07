@@ -1,7 +1,7 @@
 
 
 .container-inovatif{
-  font-size: 55px;
+  font-size: 40px;
   justify-content: center;
   align-items: center;
   margin-top: -500px;
@@ -14,9 +14,9 @@
 
 
 .container-doggy{
-  margin-bottom: 200px;
+  margin-bottom: 250px;
+  margin-left: 100px;
 }
-
 
 
 
@@ -30,8 +30,8 @@
 
 .charity{
   margin-top: 30px;
-  font-size: 60px;
-  margin-left: 100px;
+  font-size: 40px;
+  margin-left: 140px;
 }
 
 .donate{
@@ -39,7 +39,7 @@
   justify-content: flex-end;
   background-color: yellow;
   padding-right: 40px;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .isidonate{
@@ -48,9 +48,6 @@
   border:5px solid black
 }
 
-/* .isidonate:hover{
-  transform: scale(1.05);
-} */
 
 .Doggy{
   width: 30%;
@@ -59,7 +56,7 @@
 
 
 .Gambar{
-  width: 70px;
+  width: 40px;
   height: auto
 }
 
@@ -67,7 +64,7 @@
 .WEAREtext{
   font-family:sans-serif;
   font-size: 30px;
-  margin-left: 100px;
+  margin-left: 55px;
   margin-top: -30px;
 }
 
@@ -99,20 +96,8 @@
   margin-top: 50px;
 }
 
-.project-card {
-  background-color: rgba(0, 0, 0, 0.1); /* Background transparan dengan sedikit warna */
-  padding: 20px;
-  border-radius: 10px;
-  width: 80%;
-  max-width: 600px;
-  text-align: center;
-  transition: transform 0.3s ease, background-color 0.3s ease;
-}
 
-.project-card:hover {
-  transform: scale(1.1);
-  background-color: rgba(0, 0, 0, 0.3); /* Warna background saat hover */
-}
+
 
 .project-text {
   color: white;
@@ -125,4 +110,76 @@
   font-weight: bold;
   color: white;
   margin-bottom: 20px;
+}
+
+
+.container-text{
+  background-color: white;
+  padding:30px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  border: 4px solid black;
+  cursor: pointer;
+}
+
+
+.container-text-tambahan{
+  background-color: white;
+  padding:30px;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  border: 4px solid black;
+  cursor: pointer;
+}
+
+
+.container-text-tmbhn2{
+  background-color: white;
+  padding:30px;
+  padding-left: 95px;
+  padding-right: 95px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  border: 4px solid black;
+  cursor: pointer;
+}
+
+
+
+.container-text-tmbhn3{
+  background-color: white;
+  padding:30px;
+  padding-left: 115px;
+  padding-right: 115px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  border: 4px solid black;
+  cursor: pointer;
+}
+
+
+.container-apply{
+  font-weight: bold;
+}
+
+.isi-apply{
+  background-color: rgb(252, 145, 180);
+  border: 4px solid black;
+  padding:20px;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 55px;
+  margin-right: 900px;
+  cursor: pointer;
+  
 }
